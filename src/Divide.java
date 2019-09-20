@@ -12,6 +12,8 @@ public class Divide {
         System.out.print("Enter number 2: ");
         num2 = s.nextInt();
         
+        System.out.println("The larger number is " + Math.max(num1,num2));
+        
         if(num1 > num2){
             total = num1/num2;
             int remain1 = num1%num2;

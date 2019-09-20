@@ -16,11 +16,11 @@ public class PowersChart {
         }
         
         System.out.format("%d\t",exp); System.out.format("2^%d\n",exp);
-        System.out.println("-----------\t");
+        System.out.println("-------------------\t");
         
         for (int i = 0; i < exp; i++) {
             System.out.format("%d\t",i+1);
-            System.out.println(Math.pow(2,i+1));
+            System.out.println("2^" + (i+1) + " = " + Math.pow(2,i+1));
         }
     }
 }
